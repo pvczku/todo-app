@@ -1,0 +1,40 @@
+//Variables
+
+:root {
+    --background: whitesmoke;
+    --content-background: white;
+    --font-primary: #070707;
+    --font-secondary: #9394A5;
+    --font-cancelled: #D2D3DB;
+    --logo-color: whitesmoke;
+    --border: whitesmoke;
+}
+
+@import "./components/variables";
+
+// Font
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// Global
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background-image: url(../images/bg-mobile-light.jpg);
+    background-color: var(--background);
+    background-repeat: no-repeat;
+}
+
+
+@import "./components/header";
+@import "./components/searchbar";
+@import "./components/todo";
+@import "./components/filter";
+@import "./components/footer";

@@ -1,0 +1,19 @@
+.filter {
+    width: 90%;
+    margin: 1rem auto 0;
+    padding: 1rem;
+    background-color: var(--content-background);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+
+    span {
+        color: var(--font-secondary);
+        font-size: .8rem;
+    }
+
+    span.active-filter {
+        color: hsl(220, 98%, 61%);
+    }
+}

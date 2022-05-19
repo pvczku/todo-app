@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./scss/style.css">
+
+  <title>Frontend Mentor | Todo app</title>
+
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <span>Todo</span>
+    </div>
+
+    <div class="theme" id="theme-button" >
+      <img class="" src="./images/icon-sun.svg" alt="themeIcon">
+      <img class="" src="./images/icon-moon.svg" alt="themeIcon">
+    </div>
+  </header>
+  
+  <div class="searchbar">
+    <div class="checkbox">
+      <img src="../images/icon-check.svg" alt="check">
+    </div>
+    <input type="search" name="searchbar" id="search" placeholder="Create a new todo...">
+  </div>
+
+  <main>
+    <div class="todo-list">
+      <div class="todo-option">
+        <div class="checkbox">
+          <img src="../images/icon-check.svg" alt="check">
+        </div>
+        <p>Jog around the park 3x</p>
+        <img src="./images/icon-cross.svg" alt="cross">
+      </div>
+      <div class="todo-option">
+        <div class="checkbox">
+          <img src="../images/icon-check.svg" alt="check">
+        </div>
+        <p>10 minutes meditation</p>
+        <img src="./images/icon-cross.svg" alt="cross">
+      </div>
+      <div class="todo-option">
+        <div class="checkbox">
+          <img src="../images/icon-check.svg" alt="check">
+        </div>
+        <p>Jog around the park 3x</p>
+        <img src="./images/icon-cross.svg" alt="cross">
+      </div>
+    </div>
+    
+    <div class="todo-footer">
+      <div>
+        <span>
+          <span id="num-of-items">x</span> 
+          items left
+        </span>
+        <span>Clear Completed</span>
+      </div>
+    </div>
+  </main>
+
+  <div class="filter">
+    <span class="filter-option">All</span>
+    <span class="filter-option">Active</span>
+    <span class="filter-option">Completed</span>
+  </div>
+
+  <footer>
+    <p>Drag and drop to reorder list</p>
+  </footer>
+
+
+
+  <script src="./js/theme.js"></script>
+</body>
+</html>
