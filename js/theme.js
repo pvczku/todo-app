@@ -8,7 +8,7 @@ image.addEventListener("click", () => {
 
     if (image.classList.contains("active") == true) {
         // toggle dark mode
-        document.querySelector('body').style.setProperty('background-image', 'url(../images/bg-mobile-dark.jpg)')
+        document.querySelector('body').style.setProperty('background-image', 'url(./images/bg-mobile-dark.jpg)')
         document.querySelector(':root').style.setProperty('--background', '#161722');
         document.querySelector(':root').style.setProperty('--content-background', '#25273C');
         document.querySelector(':root').style.setProperty('--font-primary', '#CACDE8');
@@ -17,7 +17,7 @@ image.addEventListener("click", () => {
     
     else if (image.classList.contains("active") == false) {
         // toggle light mode
-        document.querySelector('body').style.setProperty('background-image', 'url(../images/bg-mobile-light.jpg)')
+        document.querySelector('body').style.setProperty('background-image', 'url(./images/bg-mobile-light.jpg)')
         document.querySelector(':root').style.setProperty('--background', 'whitesmoke');
         document.querySelector(':root').style.setProperty('--content-background', 'white');
         document.querySelector(':root').style.setProperty('--font-primary', '#070707');
